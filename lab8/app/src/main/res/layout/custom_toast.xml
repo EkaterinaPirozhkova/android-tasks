@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toast_layout"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginStart="55dp"
+    android:layout_marginTop="142dp"
+    android:layout_marginBottom="33dp"
+    android:background="#A6A5A5">
+
+    <ImageView
+        android:id="@+id/imageViev"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/cat" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="350dp"
+        android:textColor="#6A0DFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViev" />
+</androidx.constraintlayout.widget.ConstraintLayout>

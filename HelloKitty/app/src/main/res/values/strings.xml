@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Kitty</string>
+    <string name="img">img</string>
+    <string name="name">Name</string>
+</resources>

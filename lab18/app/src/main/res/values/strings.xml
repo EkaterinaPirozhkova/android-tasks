@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab18</string>
+    <string name="sun">Солнце</string>
+    <string name="grass">Трава</string>
+    <string name="sky">Небо</string>
+    <string name="clock">Часы</string>
+    <string name="hour">Стрелка</string>
+    <string name="cat">Котик</string>
+</resources>
